@@ -19,7 +19,34 @@ ANSWER:-
   
  ![EXIT2](https://github.com/user-attachments/assets/9b8411cb-649a-469f-a810-82c1ba8dba49)
 
+.language-selector {
+    /* Basic positioning and styling for the dropdown */
+    position: relative;
+    display: inline-block;
+    margin-left: 20px; /* Example spacing */
+}
 
+#language-dropdown {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #333; /* Dark background for a Prime-like feel */
+    color: #fff; /* White text */
+    cursor: pointer;
+    -webkit-appearance: none; /* Remove default dropdown arrow for custom styling */
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2020%2020%22%3E%3Cpath%20fill%3D%22%23ffffff%22%20d%3D%22M5.61 8.35L10 12.74l4.39-4.39A.996.996 0 1 1 15 9.77l-5 5a1 1 0 0 1-1.42 0l-5-5a.996.996 0 0 1 0-1.42.996.996 0 0 1 1.41 0z%22%2F%3E%3C%2Fsvg%3E'); /* Custom dropdown arrow */
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    background-size: 12px;
+}
+
+/* Style for options within the dropdown */
+#language-dropdown option {
+    background-color: #444;
+    color: #fff;
+}
 
 
 
